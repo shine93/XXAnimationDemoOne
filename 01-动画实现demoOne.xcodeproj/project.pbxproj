@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		142955A01EE508A8008DC09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1429559F1EE508A8008DC09B /* main.m */; };
 		142955A31EE508A8008DC09B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955A21EE508A8008DC09B /* AppDelegate.m */; };
-		142955A61EE508A8008DC09B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955A51EE508A8008DC09B /* ViewController.m */; };
-		142955A91EE508A8008DC09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142955A71EE508A8008DC09B /* Main.storyboard */; };
 		142955AB1EE508A8008DC09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142955AA1EE508A8008DC09B /* Assets.xcassets */; };
 		142955AE1EE508A8008DC09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142955AC1EE508A8008DC09B /* LaunchScreen.storyboard */; };
 		142955B91EE508A8008DC09B /* _1_____demoOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955B81EE508A8008DC09B /* _1_____demoOneTests.m */; };
 		142955C41EE508A8008DC09B /* _1_____demoOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955C31EE508A8008DC09B /* _1_____demoOneUITests.m */; };
+		142955D31EE5099B008DC09B /* XXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955D21EE5099B008DC09B /* XXTableViewController.m */; };
+		142955D61EE536DC008DC09B /* XXChangeColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955D51EE536DC008DC09B /* XXChangeColorViewController.m */; };
+		142955D91EE536F2008DC09B /* XXCustomChangeColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955D81EE536F2008DC09B /* XXCustomChangeColorViewController.m */; };
+		142955DC1EE53707008DC09B /* XXChangeColorAndFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142955DB1EE53707008DC09B /* XXChangeColorAndFrameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		1429559F1EE508A8008DC09B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		142955A11EE508A8008DC09B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		142955A21EE508A8008DC09B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		142955A41EE508A8008DC09B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		142955A51EE508A8008DC09B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		142955A81EE508A8008DC09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		142955AA1EE508A8008DC09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142955AD1EE508A8008DC09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142955AF1EE508A8008DC09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,14 @@
 		142955BF1EE508A8008DC09B /* 01-动画实现demoOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-动画实现demoOneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142955C31EE508A8008DC09B /* _1_____demoOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_____demoOneUITests.m"; sourceTree = "<group>"; };
 		142955C51EE508A8008DC09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142955D11EE5099B008DC09B /* XXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTableViewController.h; sourceTree = "<group>"; };
+		142955D21EE5099B008DC09B /* XXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTableViewController.m; sourceTree = "<group>"; };
+		142955D41EE536DC008DC09B /* XXChangeColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXChangeColorViewController.h; sourceTree = "<group>"; };
+		142955D51EE536DC008DC09B /* XXChangeColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXChangeColorViewController.m; sourceTree = "<group>"; };
+		142955D71EE536F2008DC09B /* XXCustomChangeColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXCustomChangeColorViewController.h; sourceTree = "<group>"; };
+		142955D81EE536F2008DC09B /* XXCustomChangeColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXCustomChangeColorViewController.m; sourceTree = "<group>"; };
+		142955DA1EE53707008DC09B /* XXChangeColorAndFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXChangeColorAndFrameViewController.h; sourceTree = "<group>"; };
+		142955DB1EE53707008DC09B /* XXChangeColorAndFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXChangeColorAndFrameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +110,18 @@
 			children = (
 				142955A11EE508A8008DC09B /* AppDelegate.h */,
 				142955A21EE508A8008DC09B /* AppDelegate.m */,
-				142955A41EE508A8008DC09B /* ViewController.h */,
-				142955A51EE508A8008DC09B /* ViewController.m */,
-				142955A71EE508A8008DC09B /* Main.storyboard */,
 				142955AA1EE508A8008DC09B /* Assets.xcassets */,
 				142955AC1EE508A8008DC09B /* LaunchScreen.storyboard */,
 				142955AF1EE508A8008DC09B /* Info.plist */,
 				1429559E1EE508A8008DC09B /* Supporting Files */,
+				142955D11EE5099B008DC09B /* XXTableViewController.h */,
+				142955D21EE5099B008DC09B /* XXTableViewController.m */,
+				142955D41EE536DC008DC09B /* XXChangeColorViewController.h */,
+				142955D51EE536DC008DC09B /* XXChangeColorViewController.m */,
+				142955D71EE536F2008DC09B /* XXCustomChangeColorViewController.h */,
+				142955D81EE536F2008DC09B /* XXCustomChangeColorViewController.m */,
+				142955DA1EE53707008DC09B /* XXChangeColorAndFrameViewController.h */,
+				142955DB1EE53707008DC09B /* XXChangeColorAndFrameViewController.m */,
 			);
 			path = "01-动画实现demoOne";
 			sourceTree = "<group>";
@@ -248,7 +260,6 @@
 			files = (
 				142955AE1EE508A8008DC09B /* LaunchScreen.storyboard in Resources */,
 				142955AB1EE508A8008DC09B /* Assets.xcassets in Resources */,
-				142955A91EE508A8008DC09B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142955A61EE508A8008DC09B /* ViewController.m in Sources */,
+				142955D61EE536DC008DC09B /* XXChangeColorViewController.m in Sources */,
+				142955D91EE536F2008DC09B /* XXCustomChangeColorViewController.m in Sources */,
 				142955A31EE508A8008DC09B /* AppDelegate.m in Sources */,
+				142955D31EE5099B008DC09B /* XXTableViewController.m in Sources */,
+				142955DC1EE53707008DC09B /* XXChangeColorAndFrameViewController.m in Sources */,
 				142955A01EE508A8008DC09B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		142955A71EE508A8008DC09B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				142955A81EE508A8008DC09B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		142955AC1EE508A8008DC09B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,6 +513,7 @@
 				142955CA1EE508A8008DC09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142955CB1EE508A8008DC09B /* Build configuration list for PBXNativeTarget "01-动画实现demoOneTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				142955CD1EE508A8008DC09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142955CE1EE508A8008DC09B /* Build configuration list for PBXNativeTarget "01-动画实现demoOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				142955D01EE508A8008DC09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XXTableViewController.h
 //  01-动画实现demoOne
 //
 //  Created by shine on 2017/6/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XXTableViewController : UITableViewController
 
 @end
-
